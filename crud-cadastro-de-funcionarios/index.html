@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <title>CRUD | Cadastro de Funcionários</title>
+</head>
+<body>
+  <div class="app">
+    <header>
+      <p>Cadastro de Funcionários</p>
+      <button id="include-button" class="btn" onclick="openModal()">Incluir</button>
+    </header>
+    <div class="div-table">
+      <table>
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Função</th>
+            <th>Salário</th>
+            <th class="action">Editar</th>
+            <th class="action">Excluir</th>
+          </tr>
+        </thead>
+        <tbody>  
+          
+          </tr>      
+        </tbody>
+      </table>
+    </div>
+
+    <div class="modal-container">
+      <div class="modal">
+        <form>
+          <label for="iName">Nome</label>
+          <input type="text" id="iName" required>
+  
+          <label for="iFunction">Função</label>
+          <input type="text" id="iFunction" required>
+  
+          <label for="iSalario">Salário</label>
+          <input type="text" id="iSalario" required>
+  
+          <button id="save-button" class="btn">Salvar</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
