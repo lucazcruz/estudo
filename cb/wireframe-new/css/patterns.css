@@ -1,0 +1,53 @@
+h1, h2, h3, h4 {
+  font-family: 'Sora';
+  font-weight: 600;
+  line-height: 125%;
+  letter-spacing: -1px;
+  color: var(--color-1);
+}
+
+h1 {
+  font-size: 4.8rem;
+  color: var(--color-7);
+}
+
+h2 {
+  font-size: 3.2rem;
+}
+
+h3 {
+  font-size: 2.4rem;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+.container {
+  max-width: 124.6rem;
+  padding: 0 1.5rem;
+  margin: 0 auto;
+}
+
+.menu-item {
+  padding: 1.2rem 2.4rem;
+  background: var(--color-3);
+  color: var(--color-5);
+
+  font-size: 1.5rem;
+  line-height: 105%;
+  letter-spacing: -0.01em;
+}
+
+.btn-primary {
+  display: inline-block;
+  background: var(--color-8);
+  color: var(--color-7);
+  font-family: 'Sora';
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 100%;
+  letter-spacing: -0.01em;
+
+  padding: 2rem 4rem;
+}

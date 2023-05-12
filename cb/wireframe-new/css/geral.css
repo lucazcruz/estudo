@@ -1,0 +1,228 @@
+/* HEADER */
+
+header .container {
+  height: 8.8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  max-width: 17.6rem;
+}
+
+.header-menu {
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+.header-menu .btn-primary {
+  padding: 1.2rem 3.4rem;
+}
+
+.menu-mobile {
+  display: none;
+}
+
+
+/* SECTION HERO */
+
+.s-hero {
+  padding: 4.6rem 0 9.8rem;
+}
+
+.s-hero .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.s-hero .text-area {
+  width: 64rem;
+}
+
+.s-hero p {
+  max-width: 48.8rem;
+  margin: 2rem 0 5.6rem;
+}
+
+.s-hero .image {
+  background: var(--color-2);
+  width: 48.8rem;
+  height: 49.6rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* SECTION FEATURED CARDS */
+
+.s-featured-cards {
+  background: var(--color-7);
+  padding: 10.4rem 0 12rem;
+}
+
+.s-featured-cards p {
+  color: var(--color-4);
+}
+
+.s-featured-cards .main-area {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+  padding-bottom: 12.2rem;
+}
+
+.s-featured-cards .main-area .title {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: .8rem;
+}
+
+.s-featured-cards .main-area .all-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4.8rem;
+}
+
+.s-featured-cards .main-area .card {
+  width: 32%;
+  background: rgb(28, 29, 31, .5);
+  padding: 6.4rem 0 8rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+}
+
+.s-featured-cards .main-area .card .info {
+  max-width: 28.8rem;
+}
+
+.s-featured-cards .main-area .card .info p {
+  line-height: 150%;
+  margin-top: .8rem;
+}
+
+.s-featured-cards .second-area {
+  padding-top: 10.4rem;
+}
+
+.s-featured-cards .second-area .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5.6rem;
+}
+
+.s-featured-cards .second-area .all-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem 2%;
+  justify-content: center;
+  
+}
+
+.s-featured-cards .second-area .image {
+  background: #1C1D1F;
+  display: flex;
+  justify-content: center;
+  padding: 3.6rem 0;
+  width: 15%;
+}
+
+/* SECTION NEWSLETTER */
+
+.s-newsletter {
+  background: #1C1D1F;
+  padding: 15.2rem 0;
+  text-align: center;
+}
+
+.s-newsletter h2 {
+  margin-bottom: 2rem;
+}
+
+.s-newsletter p {
+  color: var(--color-4);
+  max-width: 69.4rem;
+  margin: 0 auto 4rem;
+}
+
+/* FOOTER */
+
+footer {
+  background: var(--color-7);
+  padding: 8.8rem 0 4rem;
+}
+
+.footer-main .left-area {
+  max-width: 28.1rem;
+  color: var(--color-4);
+}
+
+.footer-main .left-area p {
+  margin-top: 4.5rem;
+  font-size: 1.4rem;
+  line-height: 150%;  
+}
+
+.footer-main {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  padding-bottom: 7.2rem;
+
+  border-bottom: 1px solid rgba(255, 255, 255, .2);
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+
+  max-width: 77.7rem;
+  flex-basis: 44rem;
+  flex-grow: 1;
+}
+
+.footer-nav .menu:last-child a {
+  display: flex;
+  align-items: center;
+  gap: .8rem;
+}
+
+.footer-nav h4 {
+  margin-bottom: 2.4rem;
+}
+
+.footer-nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+
+.footer-nav a {
+  color: var(--color-4);
+}
+
+footer .copy {
+  padding-top: 4rem;
+
+  display: flex;
+  justify-content: space-between;
+
+  color: var(--color-4);
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 150%;
+}
+
+footer .copy .group {
+  display: flex;
+  align-items: center;
+  gap: .8rem;
+}
